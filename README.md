@@ -98,7 +98,7 @@ reproducibility the notebook argues for.
 
 ## Requirements
 
-Python 3.14. Exact tested versions are in `requirements.txt`.
+Python 3.14.0. Exact tested versions are in `requirements.txt`.
 
 Note that this notebook was produced on **pandas 3.x**, which introduced breaking
 changes relative to pandas 2.x. If you relax the pins, expect to adjust a few calls.
