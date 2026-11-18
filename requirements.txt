@@ -1,0 +1,25 @@
+# Exact versions used to produce the outputs stored in the notebook.
+# Generated on Python 3.14.0 (Windows).
+#
+# Before publishing, confirm the notebook also runs on Python 3.12, which is
+# what most readers will have. If a wheel is missing for 3.14 on some platform,
+# state the tested version in the README rather than leaving it to chance.
+
+numpy==2.3.5
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.10.7
+seaborn==0.13.2
+scikit-learn==1.9.0
+statsmodels==0.15.0
+
+xgboost==3.4.1
+lightgbm==4.7.0
+catboost==1.2.10
+shap==0.54.1
+
+# Notebook execution. ipywidgets removes the tqdm "IProgress not found"
+# warning raised by shap and catboost progress bars.
+ipykernel
+ipywidgets
+jupyterlab
