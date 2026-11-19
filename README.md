@@ -12,7 +12,7 @@ step states not only *how* it was done but *why*, and what its limitations are.
 > point, and no result here is a clinical finding. The purpose is to demonstrate and
 > validate an analysis pipeline where the ground truth is known by construction.
 
-## Why this notebook exists
+## Some important questions
 
 Most clinical ML tutorials stop at `fit`, `predict`, and an AUC. The questions that
 decide whether an analysis is defensible come after that, and they rarely get taught:
@@ -21,10 +21,6 @@ decide whether an analysis is defensible come after that, and they rarely get ta
 - Is AUC the right metric when the outcome affects one patient in five?
 - Does feature importance mean what the library implies it means?
 - What happens to a ten-year risk estimate when patients die of something else first?
-
-Because the data-generating process is known, every answer can be checked against the
-truth. The notebook ends by asking the same question four ways and getting four
-different numbers.
 
 ## What the notebook covers
 
@@ -119,7 +115,6 @@ Stated at the end of each section and collected in the final summary. The main o
 
 **Anna Carolina Pousas Navarro**
 Physician (Pediatrics, Allergy and Clinical Immunology), MSc in Systems Biology.
-Research collaborator, Computational Systems Biology Laboratory, University of São Paulo.
 
 [github.com/acpnavarro](https://github.com/acpnavarro)
 
